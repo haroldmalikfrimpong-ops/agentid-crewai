@@ -1,0 +1,33 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "agentid-crewai"
+version = "0.1.0"
+description = "AgentID tools for CrewAI — cryptographic identity verification for AI agents"
+readme = "README.md"
+license = "MIT"
+requires-python = ">=3.10"
+authors = [{ name = "AgentID" }]
+keywords = ["agentid", "crewai", "ai-agents", "identity", "verification", "trust"]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Security :: Cryptography",
+    "Topic :: Software Development :: Libraries",
+]
+dependencies = [
+    "getagentid>=0.3.0",
+    "crewai>=0.40.0",
+]
+
+[project.urls]
+Homepage = "https://getagentid.dev"
+Repository = "https://github.com/haroldmalikfrimpong-ops/getagentid-crewai"
+Documentation = "https://getagentid.dev/docs"
